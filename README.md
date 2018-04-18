@@ -159,7 +159,7 @@ Tensorflow版本：1.5.0
 再在控制台配置相关环境变量(每次进入控制台或重启后均需再次配置)以及安装相应python库
 
 <pre><code>
-  BUCKET_NAME=lcuops
+  BUCKET_NAME=name
   REGION=us-east1
   DATA_DIR=gs://$BUCKET_NAME/data/wav/test/car/
   LABEL_FILE=gs://$BUCKET_NAME/data/doc/trans/test.noise.word.txt
